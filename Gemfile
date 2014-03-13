@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-ruby '2.0.0'
+ruby '2.1.0'
 
 gem 'rails', '4.0.0'
 gem 'bootstrap-sass-rails', '3.0.0.3'
@@ -33,9 +33,10 @@ group :development, :test do
   gem 'better_errors', '1.0.1'
   gem 'quiet_assets', '1.0.2'
   gem 'bullet', '4.7.1'
-  gem 'debugger', '1.6.3'
+  gem 'debugger', '1.6.5'
   gem 'hirb', '0.7.1'
   gem 'airbrake', '3.1.14'
+  gem 'binding_of_caller', '0.7.2'
 
   gem 'rails_best_practices', '1.14.4'
 end
